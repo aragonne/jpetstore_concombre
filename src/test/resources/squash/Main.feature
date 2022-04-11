@@ -1,3 +1,5 @@
+Feature: test
+
 # Simple scenario
 Scenario: Current stock main
   Given I am a registered user of the pet store
