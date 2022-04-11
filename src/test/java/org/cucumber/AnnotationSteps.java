@@ -12,6 +12,7 @@ import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import static org.junit.Assert.assertEquals;
 
+@RunWith(Cucumber.class)
 public class AnnotationSteps {
     WebDriver driver;
     String login;
