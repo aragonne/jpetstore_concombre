@@ -10,7 +10,7 @@ public class RunTest {
 
 glue = {"org.cucumber.AnnotationSteps"},
 features = "~/test4/src/test/resources",
-format = {"pretty", "html:target/cucumber-html-report", "json-pretty:target/cucumber-report.json"},
+format = {"pretty", "html:target/cucumber-html-report", "json-pretty:target/cucumber-report.json"}
 
 )
  }
