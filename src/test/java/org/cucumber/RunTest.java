@@ -4,7 +4,7 @@ import io.cucumber.junit.Cucumber;
 import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class) 
-@Cucumber.Options(
+@CucumberOptions(
 
 glue = {"org.cucumber.AnnotationSteps"},
 features = "~/test4/src/test/resources",
