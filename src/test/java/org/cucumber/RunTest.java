@@ -8,8 +8,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
 
 glue = {"org.cucumber.AnnotationSteps"},
-features = "~/test4/src/test/resources",
-format = {"pretty", "html:target/cucumber-html-report", "json-pretty:target/cucumber-report.json"}
+features = "~/test4/src/test/resources"
 
 )
 public class RunTest {
