@@ -1,6 +1,6 @@
 package org.cucumber;
 
-import cucumber.junit.Cucumber;
+import io.cucumber.junit.Cucumber;
 import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class) 
